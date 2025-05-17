@@ -1,0 +1,338 @@
+*{
+   margin: 0 ;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body{
+    background-color: black;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top:35px;
+    margin-left: 170px;
+    margin-right: 130px;
+}
+
+.nav-menu p {
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.nav-menu .nav-itens{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-itens a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container{
+    color: white;
+}
+
+.parteCima{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 27px;
+    width: 100%;
+    height: 570px;
+    padding-left: 158px;
+    padding-right: 118px;
+}
+
+.parteCima .nome{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    padding-bottom: 27px;
+}
+
+.parteCima p{
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    padding-bottom: 27px;
+    color: #828282;
+}
+
+.parteCima .buttons{
+    display: flex;
+    gap: 18px;
+}
+
+.parteCima .esquerda{
+    max-width: 50%;
+}
+
+.parteCima .direita{
+    max-width: 50%;
+}
+
+.direita img{
+    max-width: 393px;
+    max-height: 450px;
+    width: auto;
+    height: auto;
+    border-radius: 20%;
+}
+
+.buttons .button1{
+    width: 121px;
+    height: 34px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #11A3AE;
+    border: none;
+}
+
+.buttons .button2{
+    width: 153px;
+    height: 34px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #171717;
+    color: white;
+    border: 1px solid #333333;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 809px;
+    margin-left:237px;
+}
+
+.conteudo h2{
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "DM Sans", sans-serif;
+    padding-bottom: 32px;
+}
+
+.conteudo p{
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    color: #828282;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.redes i{
+    display: flex;
+    background-color: #212121;
+    width: 62px;
+    height: 62px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #11A3AE;
+    font-size: 42px;
+}
+
+.redes .linkedin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes .email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes .github{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes a{
+    text-decoration: none;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 8px; 
+}
+
+.redes p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    color: #828282;
+}
+
+.projetosH2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 68px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.projetos{
+    display: flex;
+    margin: 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    flex-wrap: wrap ;
+}
+
+.projetos div{
+    height: 240px;
+    width: 350px;
+    background-color: #212121;
+}
+
+.conteudoProjetos{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: safe;
+    flex-direction: column;
+    padding: 23px 140px 20px 25px;
+}
+
+.conteudoProjetos h3{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.conteudoProjetos p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+}
+
+.servicosH2{
+    display: flex;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 127px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+.servicos div{
+    display: flex;
+    width: 350px;
+    height: 240px;
+    background-color: #212121;
+    flex-direction: column;
+    gap: 40px;
+    border-bottom: 5px solid #11A3AE;
+}
+
+.servicos i{
+    font-size: 46px;
+    color: #11A3AE;
+    margin: 30px 0 0px 30px;
+}
+
+.servicos p{
+    display: flex;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+    font-size: 32px;
+    color: #828282;
+    margin: 0px 0px 30px 30px;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 51px;
+}
+.skills div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    background-color: #212121;
+}
+
+.skillsH2{
+    display: flex;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 127px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills i{
+    display: flex;
+    font-size: 80px;
+    color: #11A3AE;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 185px;
+    width: 100%;
+    height: 60px;
+    background-color: #212121;
+}
+
+.footer p{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media (max-width: 1024px){
+    .nav-itens li{
+        display: none;
+    }
+    .nav-menu p{
+        font-size: 14px;
+    }
+}
