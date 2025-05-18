@@ -29,6 +29,11 @@ body{
     gap: 20px;
 }
 
+.nav-itens :hover{
+    transition: 0.5s linear;
+    color: #11A3AE;
+}
+
 .nav-itens a{
     text-decoration: none;
     color: #ffffff;
@@ -94,6 +99,7 @@ body{
 }
 
 .buttons .button1{
+    cursor: pointer;
     width: 121px;
     height: 34px;
     font-family: "DM Sans", sans-serif;
@@ -104,6 +110,7 @@ body{
 }
 
 .buttons .button2{
+    cursor: pointer;
     width: 153px;
     height: 34px;
     font-family: "DM Sans", sans-serif;
@@ -366,7 +373,7 @@ body{
     }
 
     .parteCima p {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .parteCima img{
@@ -374,12 +381,13 @@ body{
     }
 
     .buttons{
+        width: 159px;
         gap: 12px;
         width: 100%;
     }
 
     .buttons .button1{
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .buttons .button2{
