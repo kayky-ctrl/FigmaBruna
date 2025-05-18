@@ -37,6 +37,10 @@ body{
     font-size: 18px;
 }
 
+.nav-itens i{
+    display: none;
+}
+
 .container{
     color: white;
 }
@@ -328,10 +332,10 @@ body{
     font-size: 16px;
 }
 
+/* Responsividade pro celular */
 @media (max-width: 768px) {
     body {
-        padding: 0 16px;          /* respirou! */
-        font-size: 15px;          /* texto levemente maior */
+        font-size: 15px;          
         line-height: 1.4;
     }
 
@@ -349,9 +353,13 @@ body{
         display: none;
     }
 
+    .nav-itens i{
+        display: none;
+    }
+
     .parteCima {
         flex-direction: column;
-        padding: 0;               /* lado já resolvido pelo body */
+        padding: 0;  
         gap: 32px;
         height: auto;
         text-align: center;
@@ -390,7 +398,7 @@ body{
     }
 
      .redes {
-        flex-direction: row;      /* três ícones na mesma linha */
+        flex-direction: row;     
         flex-wrap: wrap;
         gap: 24px;
         margin-top: 40px;
@@ -428,8 +436,8 @@ body{
     }
     .skills i { font-size: 60px; }
 
-
     .footer {
+        width: 100vw;
         text-align: center;
     }
 }
