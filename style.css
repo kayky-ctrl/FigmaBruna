@@ -8,6 +8,7 @@ body{
     background-color: black;
 }
 
+/* BARRA DE NAVEGAÇÃO */
 .nav-menu{
     display: flex;
     justify-content: space-between;
@@ -46,10 +47,60 @@ body{
     display: none;
 }
 
+.menu-mobile-conteudo {
+  position: relative;
+  display: none; /*LEMBRETEEEEE: Só mostra no mobile */
+}
+
+
+.menu-clicavel {
+  font-size: 28px;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background-color: #111;
+  border-radius: 8px;
+}
+
+.menu-mobile {
+  display: none;
+  flex-direction: column;
+  background-color: #111;
+  position: fixed; /*LEMBRETEEEEE: Fixar na tela */
+  top: 55px; /*LEMBRETEEEE: Fica posicionado debaixo do ícone */
+  right: 15px;
+  width: 200px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.menu-mobile a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 10px;
+  border-bottom: 1px solid #333;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+
+.menu-mobile a:hover {
+  background-color: #11A3AE;
+  color: #111;
+  border-radius: 4px;
+}
+
+/* MAIN */
 .container{
     color: white;
 }
 
+/* PARTE DE CIMA */
 .parteCima{
     display: flex;
     justify-content: space-between;
@@ -98,6 +149,8 @@ body{
     border-radius: 20%;
 }
 
+/* BOTÕES */
+
 .buttons .button1{
     cursor: pointer;
     width: 121px;
@@ -121,6 +174,8 @@ body{
     border: 1px solid #333333;
 }
 
+
+/* SEGUNDA PARTE */
 .conteudo{
     display: flex;
     justify-content: center;
@@ -146,6 +201,7 @@ body{
     padding-bottom: 32px;
 }
 
+/* REDES SOCIAIS */
 .redes{
     display: flex;
     justify-content: center;
@@ -199,6 +255,7 @@ body{
     color: #828282;
 }
 
+/* PROJETOS */
 .projetosH2{
     display: flex;
     justify-content: center;
@@ -246,6 +303,7 @@ body{
     color: #828282;
 }
 
+/* SERVIÇOS */
 .servicosH2{
     display: flex;
     font-weight: 700;
@@ -289,6 +347,8 @@ body{
     margin: 0px 0px 30px 30px;
 }
 
+/* SKILLS */
+
 .skills{
     display: flex;
     justify-content: center;
@@ -321,6 +381,8 @@ body{
     font-size: 80px;
     color: #11A3AE;
 }
+
+/* FOOTER */
 
 .footer{
     display: flex;
@@ -364,6 +426,10 @@ body{
         display: none;
     }
 
+    .menu-mobile-conteudo{
+        display: block;
+    }
+
     .parteCima {
         flex-direction: column;
         padding: 0;  
@@ -402,7 +468,8 @@ body{
         font-size: 26px;
     }
     .conteudo p {
-        font-size: 15px;
+        font-size: 13px;
+        text-align: center;
     }
 
      .redes {

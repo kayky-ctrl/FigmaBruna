@@ -2,25 +2,26 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfólio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
     <!-- Fonte 1 -DM Sans -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet" />
 </head>
 
 <body>
+    <!-- BARRA DE NAVEGAÇÃOOO -->
     <nav class="nav-menu">
         <p>Portfólio</p>
         <ul class="nav-itens">
-            <i class="fa-solid fa-bars"></i>
+
             <li><a href="">Sobre mim</a></li>
             <li><a href="">Projetos</a></li>
             <li><a href="">Serviços</a></li>
@@ -28,38 +29,64 @@
         </ul>
     </nav>
 
-    <main class="container">
-        
-        <div class="parteCima">
-            <div class="esquerda">
-                <h1 class="nome">Oi <br> sou o Kayky</h1>
-                <p>Desenvolvedor Front-End & UX e UI designer</p>
-                <div class="buttons">
-                    <button class="button1">Download CV</button>
-                    <button class="button2">Entrar em contato</button>
+    <!-- Menu Mobile -->
+    <div class="menu-mobile-conteudo">
+        <i class="fa-solid fa-bars menu-clicavel" onclick="menuClicavel()"></i>
+
+        <!-- Menu Mobile -->
+        <nav class="menu-mobile" id="menuMobile">
+            <a href="#projetos">Projetos</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+            <a href="#skills">Skills</a>
+        </nav>  
+    </div>
+        <!-- CONTEUDO PRINCIPALL -->
+
+        <main class="container">
+            <!-- Primeira parte do site -->
+            <div class="parteCima">
+                <div class="esquerda">
+                    <h1 class="nome">
+                        Oi <br />
+                        sou o Kayky
+                    </h1>
+                    <p>Desenvolvedor Front-End & UX e UI designer</p>
+                    <div class="buttons">
+                        <button class="button1">Download CV</button>
+                        <button class="button2">Entrar em contato</button>
+                    </div>
+                </div>
+                <div class="direita">
+                    <img src="imgs/20250314_141639~2.jpg" alt="Minha foto" />
                 </div>
             </div>
-            <div class="direita">
-                <img src="imgs/20250314_141639~2.jpg" alt="Minha foto">
-            </div>
-        </div>
-        
+
+            <!-- Segunda parte -->
+
             <div class="conteudo">
                 <h2>Sobre mim</h2>
-                <p>Olá meu nome é Kayky. Sou desenvolvedor Front-End com foco em criar interfaces modernas e responsivas, unindo design e funcionalidade. Crio interfaces modernas, responsivas e com foco em boa experiência do usuário.</p>
+                <p>
+                    Olá meu nome é Kayky. Sou desenvolvedor Front-End com foco em criar
+                    interfaces modernas e responsivas, unindo design e funcionalidade.
+                    Crio interfaces modernas, responsivas e com foco em boa experiência do
+                    usuário.
+                </p>
             </div>
+
+            <!-- Redes sociais -->
 
             <div class="redes">
                 <div class="linkedin">
                     <i class="fa-brands fa-linkedin"></i>
                     <a href="">LinkedIn</a>
-                    <p>/in/kayky</p>
+                    <p>/in/kayky-de-paula</p>
                 </div>
-                
+
                 <div class="email">
                     <i class="fa-regular fa-envelope"></i>
                     <a href="">E-mail</a>
-                    <p>kaykyrdepaula@gmai.com</p>
+                    <p>kaykyrdepaula@gmail.com</p>
                 </div>
 
                 <div class="github">
@@ -69,89 +96,95 @@
                 </div>
             </div>
 
-        <h2 class="projetosH2">Projetos</h2>
+            <!-- Projetos -->
 
-        <div class="projetos">
-            <div class= "caixa">
-                <div class="conteudoProjetos"> 
-                    <h3>Titulo do projeto</h3>
-                    <p>Tecnologias HTML, CSS e JS</p>
+            <h2 class="projetosH2">Projetos</h2>
+
+            <div class="projetos">
+                <div class="caixa">
+                    <div class="conteudoProjetos">
+                        <h3>Titulo do projeto</h3>
+                        <p>Tecnologias HTML, CSS e JS</p>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <div class="conteudoProjetos">
+                        <h3>Titulo do projeto</h3>
+                        <p>Tecnologias HTML, CSS e JS</p>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <div class="conteudoProjetos">
+                        <h3>Titulo do projeto</h3>
+                        <p>Tecnologias HTML, CSS e JS</p>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <div class="conteudoProjetos">
+                        <h3>Titulo do projeto</h3>
+                        <p>Tecnologias HTML, CSS e JS</p>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <div class="conteudoProjetos">
+                        <h3>Titulo do projeto</h3>
+                        <p>Tecnologias HTML, CSS e JS</p>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <div class="conteudoProjetos">
+                        <h3>Titulo do projeto</h3>
+                        <p>Tecnologias HTML, CSS e JS</p>
+                    </div>
                 </div>
             </div>
 
-           <div class= "caixa">
-                <div class="conteudoProjetos"> 
-                    <h3>Titulo do projeto</h3>
-                    <p>Tecnologias HTML, CSS e JS</p>
-                </div>
-           </div>
+            <!-- Serviços -->
 
-           <div class= "caixa">
-                <div class="conteudoProjetos"> 
-                    <h3>Titulo do projeto</h3>
-                    <p>Tecnologias HTML, CSS e JS</p>
-                </div>
-           </div>
+            <h2 class="servicosH2">Serviços</h2>
 
-           <div class= "caixa">
-                <div class="conteudoProjetos"> 
-                    <h3>Titulo do projeto</h3>
-                    <p>Tecnologias HTML, CSS e JS</p>
+            <div class="servicos">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <p>Criação de sites</p>
                 </div>
-            </div>
 
-            <div class= "caixa">
-                
-                <div class="conteudoProjetos"> 
-                    <h3>Titulo do projeto</h3>
-                    <p>Tecnologias HTML, CSS e JS</p>
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <p>UI designer</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <p>Sites responsivos</p>
                 </div>
             </div>
 
-           <div class= "caixa">
-                <div class="conteudoProjetos"> 
-                    <h3>Titulo do projeto</h3>
-                    <p>Tecnologias HTML, CSS e JS</p>
-                </div>
+            <!-- Skills -->
+
+            <h2 class="skillsH2">Minhas skills</h2>
+
+            <div class="skills">
+                <div><i class="fa-brands fa-html5"></i></div>
+                <div><i class="fa-brands fa-css3-alt"></i></div>
+                <div><i class="fa-brands fa-js"></i></div>
+                <div><i class="fa-brands fa-figma"></i></div>
+                <div><i class="fa-brands fa-react"></i></div>
+                <div></div>
             </div>
-        </div>
+        </main>
 
-        <h2 class="servicosH2">
-            Serviços
-        </h2>
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Copyrigth &#169; 2025 Kayky de Paula</p>
+        </footer>
 
-        <div class="servicos">
-            <div>
-                <i class="fa-solid fa-code"></i>
-                <p>Criação de sites</p>
-            </div>
-
-            <div>
-                <i class="fa-brands fa-figma"></i>
-                <p>UI designer</p>
-            </div>
-
-            <div>
-                <i class="fa-solid fa-mobile-screen"></i>
-                <p>Sites responsivos</p>
-            </div>
-        </div>
-
-        <h2 class="skillsH2">Minhas skills</h2>
-
-        <div class="skills">
-            <div><i class="fa-brands fa-html5"></i></div>
-            <div><i class="fa-brands fa-css3-alt"></i></div>
-            <div><i class="fa-brands fa-js"></i></div>
-            <div><i class="fa-brands fa-figma"></i></div>
-            <div><i class="fa-brands fa-react"></i></div>
-            <div></div>
-        </div>
-    </main>
-
-    <footer class="footer">
-        <p>Copyrigth &#169; 2025 Kayky de Paula</p>
-    </footer>
+        <script src="main.js"></script>
 </body>
 
 </html>
