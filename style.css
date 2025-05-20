@@ -181,8 +181,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 809px;
-    margin-left:237px;
+    width: 100%;
 }
 
 .conteudo h2{
